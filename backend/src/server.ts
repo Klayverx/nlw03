@@ -31,7 +31,7 @@ app.post('/orphanages', async (request, response) => {
     about,
     instructions,
     opening_hours,
-    open_on_weekends,
+    // open_on_weekends,
   } = request.body;
 
   const orphanagesRepository = getRepository(Orphanage);
@@ -43,7 +43,7 @@ app.post('/orphanages', async (request, response) => {
     about,
     instructions,
     opening_hours,
-    open_on_weekends,
+    // open_on_weekends,
   });
 
   await orphanagesRepository.save(orphanage);
