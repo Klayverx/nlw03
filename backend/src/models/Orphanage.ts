@@ -23,6 +23,6 @@ export default class Orphanage {
   @Column()
   opening_hours: string;
   
-  @Column()
-  open_on_weekends: boolean;
+  // @Column()
+  // open_on_weekends: boolean;
 }
